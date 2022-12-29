@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/www.trustlex.org/static/css/main.073c9b0a.css",
-    "main.js": "/www.trustlex.org/static/js/main.5272dde1.js",
-    "static/js/787.39f2c7ba.chunk.js": "/www.trustlex.org/static/js/787.39f2c7ba.chunk.js",
-    "static/media/logo.svg": "/www.trustlex.org/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/www.trustlex.org/index.html",
-    "main.073c9b0a.css.map": "/www.trustlex.org/static/css/main.073c9b0a.css.map",
-    "main.5272dde1.js.map": "/www.trustlex.org/static/js/main.5272dde1.js.map",
-    "787.39f2c7ba.chunk.js.map": "/www.trustlex.org/static/js/787.39f2c7ba.chunk.js.map"
+    "main.css": "/static/css/main.073c9b0a.css",
+    "main.js": "/static/js/main.e8bef92f.js",
+    "static/js/787.39f2c7ba.chunk.js": "/static/js/787.39f2c7ba.chunk.js",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
+    "main.e8bef92f.js.map": "/static/js/main.e8bef92f.js.map",
+    "787.39f2c7ba.chunk.js.map": "/static/js/787.39f2c7ba.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.5272dde1.js"
+    "static/js/main.e8bef92f.js"
   ]
 }
