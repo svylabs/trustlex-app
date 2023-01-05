@@ -14,6 +14,12 @@ import SwapPage from "../pages/swap/swapPage";
 import EarnPage from "../pages/earn/earnPage";
 import SwapHorizontalCircleIcon from '@mui/icons-material/SwapHorizontalCircle';
 import PaidIcon from '@mui/icons-material/Paid';
+import CurrencyBitcoinIcon from '@mui/icons-material/CurrencyBitcoin';
+import CurrencyExchangeIcon from '@mui/icons-material/CurrencyExchange';
+import SellIcon from '@mui/icons-material/Sell';
+import HistoryIcon from '@mui/icons-material/History';
+import SyncIcon from '@mui/icons-material/Sync';
+import RecentPage from "../pages/recent/recent";
 
 const appRoutes: RouteType[] = [
   {
@@ -27,7 +33,16 @@ const appRoutes: RouteType[] = [
     state: "swap",
     sidebarProps: {
       displayText: "Swap",
-      icon: <SwapHorizontalCircleIcon />
+      icon: <CurrencyExchangeIcon />
+    }
+  },
+  {
+    path: "/recent",
+    element: <RecentPage />,
+    state: "recent",
+    sidebarProps: {
+      displayText: "Recent",
+      icon: <HistoryIcon />
     }
   },
   {
@@ -38,7 +53,7 @@ const appRoutes: RouteType[] = [
       displayText: "Earn",
       icon: <PaidIcon />
     }
-  },
+  }
   /*
   {
     path: "/installation",
